@@ -1,11 +1,24 @@
 # Python-Whatsapp-Analyzer
 A small Jupyter Notebook to visualize Whatsapp Chats
 
+# Features
+
+- WordCounts
+- WordCloud
+- Name Frequency
+- Emoji Frequency
+- Time of Day Frequency
+- Who sends the most Messages
+- Who sends the most Media
+- Who sends the longest Messages
+- Who Answers Who Snakey Graph
+
 # Requirements
 
 Make sure you have a current version of **Python 3** and **pip** installed
 
 **(Not compatible with Python 2)**
+
 
 # Installation
 
