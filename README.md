@@ -12,6 +12,7 @@ A small Jupyter Notebook to visualize Whatsapp Chats
 - Who sends the most Media
 - Who sends the longest Messages
 - Who Answers Who Snakey Graph
+- Save Created Dataframes as CSV or JSON
 
 # Requirements
 
