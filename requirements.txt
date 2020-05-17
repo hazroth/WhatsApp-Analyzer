@@ -2,7 +2,7 @@ jupyter
 matplotlib
 pandas
 seaborn
-textblob_de
+textblob
 nltk
 wordcloud
 plotly
