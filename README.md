@@ -4,7 +4,6 @@ A small Jupyter Notebook to visualize Whatsapp Chats
 # Features
 
 - WordCounts
-- WordCloud
 - Name Frequency
 - Emoji Frequency
 - Time of Day Frequency
@@ -12,7 +11,6 @@ A small Jupyter Notebook to visualize Whatsapp Chats
 - Who sends the most Media
 - Who sends the longest Messages
 - Who Answers Who Snakey Graph
-- Save Created Dataframes as CSV or JSON
 
 # Requirements
 
