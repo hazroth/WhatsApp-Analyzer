@@ -1,9 +1,10 @@
 jupyter
 matplotlib
 pandas
-seaborn
 textblob
 nltk
-wordcloud
+spacy
 plotly
 emoji
+demoji
+numpy
