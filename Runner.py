@@ -20,7 +20,7 @@ def run():
 
     (body, resources) = html_exporter.from_notebook_node(nb)
 
-    with open('executed.html', 'w', encoding='utf-8') as f:
+    with open('Analyzer.html', 'w', encoding='utf-8') as f:
         f.write(body)
 
 run()

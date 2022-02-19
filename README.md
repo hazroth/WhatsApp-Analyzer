@@ -39,9 +39,8 @@ or depending on your Installation
 pip3 install -r requirements.txt
 ```
 
-to install the dependencies (jupyter, matplotlib, pandas, seaborn, textblob_de, nltk, wordcloud, plotly, emoji)
+to install the dependencies (jupyter matplotlib pandas nltk spacy plotly emoji demoji numpy)
 
-(If the install warns you to add jupyter to your path please do so)
 
 ## Setup
 
@@ -65,7 +64,7 @@ To optimize the name recognition engine you can exclude and include certain name
 
 # Executing the Program
 
-To run the Program you can either execute setup.py again or run
+To run the Program you can either execute setup.py again to change the Path, execute Runner.py or run the notebook through nbconvert:
 
 ```
 jupyter nbconvert --ExecutePreprocessor.timeout=-1 --no-input --to html --execute Analyzer.ipynb

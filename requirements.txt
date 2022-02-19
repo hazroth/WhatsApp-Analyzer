@@ -1,7 +1,6 @@
 jupyter
 matplotlib
 pandas
-textblob
 nltk
 spacy
 plotly
