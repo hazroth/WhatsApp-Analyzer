@@ -34,3 +34,5 @@ git rm -r .ipynb_checkpoints/
 *.html
 *.json
 __pycache__/*
+
+git rm -r __pycache__/
