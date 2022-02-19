@@ -17,7 +17,7 @@ def init_argparse():
 
     parser = argparse.ArgumentParser(
 
-        usage="%(prog)s [OPTION] [FILE]...",
+        usage="%(prog)s [OPTION] [CHATFILE]",
 
         description="Analyze a WhatsApp Chat"
 
@@ -28,7 +28,7 @@ def init_argparse():
         version=f"{parser.prog} version 0.1"
     )
 
-    parser.add_argument("chat",
+    parser.add_argument("chatfile",
                         help="The Chatfile")
 
     parser.add_argument("-i", "--includeNames", action="store_true", default=[],
@@ -65,7 +65,7 @@ def main():
         spacy.cli.download("de_core_news_sm")
 
 
-    ChatPath = args.chat
+    ChatPath = args.chatfile
 
     if ChatPath[0] == "\"":
         ChatPath = ChatPath.strip("\"")

@@ -33,44 +33,26 @@ In said folder execute the following command
 pip install -r requirements.txt
 ```
 
-or depending on your Installation
-
-```
-pip3 install -r requirements.txt
-```
-
 to install the dependencies (jupyter matplotlib pandas nltk spacy plotly emoji demoji numpy)
 
+# Running the Program
 
-## Setup
-
-To download nltk data and input your settings simply run
-
-```
-python setup.py
-```
-
-or depending on your Installation
+Executing the Python Script will also install needed Language Models
 
 ```
-python3 setup.py
+usage: Analyzer.py [OPTION] [CHATFILE]
+
+Analyze a WhatsApp Chat
+
+positional arguments:
+  chatfile            The Chatfile
+
+options:
+  -h, --help          show this help message and exit
+  -v, --version       show program's version number and exit
+  -i, --includeNames  Include certain Names with Structure ['Name1', 'Name2', ...]
+  -e, --excludeNames  Exclude certain Names with Structure ['Name1', 'Name2', ...]
 ```
-
-## Configurations
-
-To change settings simply edit the generated settings.json
-
-To optimize the name recognition engine you can exclude and include certain names with **includeNames** and **excludeNames** ``(Use the Python List Syntax)``
-
-# Executing the Program
-
-To run the Program you can either execute setup.py again to change the Path, execute Runner.py or run the notebook through nbconvert:
-
-```
-jupyter nbconvert --ExecutePreprocessor.timeout=-1 --no-input --to html --execute Analyzer.ipynb
-```
-
-inside your installation folder
 
 # Results
 
