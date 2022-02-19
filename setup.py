@@ -1,6 +1,8 @@
 import nltk
 import json as js
 import os
+import Runner
+import spacy
 
 yes = ['Yes', 'YES', 'Y', 'y']
 no = ['No', 'NO', 'N', 'n']
@@ -10,6 +12,7 @@ print("Downloading needed Language Models")
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('names')
+spacy.cli.download("de_core_news_sm")
 
 print("\n")
 
@@ -35,4 +38,4 @@ while run not in yes+no:
     run = input()
 
 if run in yes:
-    os.system(f"jupyter nbconvert --ExecutePreprocessor.timeout=-1 --no-input --to html --execute Analyzer.ipynb")
+    Runner.run()
