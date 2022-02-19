@@ -1,7 +1,6 @@
 import nltk
 import json as js
 import os
-import Runner
 import spacy
 
 yes = ['Yes', 'YES', 'Y', 'y']
@@ -13,6 +12,8 @@ nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('names')
 spacy.cli.download("de_core_news_sm")
+
+import Runner
 
 print("\n")
 
